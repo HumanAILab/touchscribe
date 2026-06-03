@@ -1,0 +1,19 @@
+# Ignore model checkpoints
+sam_vit_h_4b8939.pth
+groundingdino_swint_ogc.pth
+
+# Ignore all .pth and .ckpt files (general rule for PyTorch checkpoints)
+*.pth
+*.ckpt
+
+# Ignore other large model files
+*.tar
+*.tar.gz
+*.h5
+*.onnx
+
+# Ignore downloaded models directory if used
+models/
+checkpoints/
+weights/
+

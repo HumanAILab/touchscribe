@@ -1,0 +1,421 @@
+{
+    "save_dir": "/home/rueiche/worldscribe/utils/hands23/../../results/my_images/",
+    "images": [
+        {
+            "file_name": "holding_airpods_2hands.png",
+            "predictions": [
+                {
+                    "hand_id": 0,
+                    "hand_bbox": [
+                        "1709.8068",
+                        "420.13843",
+                        "3148.5044",
+                        "1554.0519"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "right_hand",
+                    "obj_bbox": [
+                        "1278.0325",
+                        "801.62317",
+                        "2138.015",
+                        "1400.878"
+                    ],
+                    "obj_touch": "neither_,_held",
+                    "obj_touch_scores": {
+                        "tool_,_touched": "0.0",
+                        "tool_,_held": "0.0",
+                        "tool_,_used": "0.0",
+                        "container_,_touched": "0.0",
+                        "container_,_held": "0.0001",
+                        "neither_,_touched": "0.0107",
+                        "neither_,_held": "0.9891"
+                    },
+                    "second_obj_bbox": null,
+                    "grasp": "Pre-Pris",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0",
+                        "NP-Fin": "0.0175",
+                        "Pow-Pris": "0.0",
+                        "Pre-Pris": "0.6385",
+                        "Pow-Circ": "0.0",
+                        "Pre-Circ": "0.3435",
+                        "Later": "0.0006",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "1.0",
+                    "sec_obj_pred_score": "None"
+                },
+                {
+                    "hand_id": 1,
+                    "hand_bbox": [
+                        "100.148735",
+                        "335.08994",
+                        "1690.1434",
+                        "1719.7072"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "left_hand",
+                    "obj_bbox": null,
+                    "obj_touch": "None",
+                    "obj_touch_scores": null,
+                    "second_obj_bbox": null,
+                    "grasp": "Pre-Pris",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0003",
+                        "NP-Fin": "0.2502",
+                        "Pow-Pris": "0.0003",
+                        "Pre-Pris": "0.5424",
+                        "Pow-Circ": "0.0002",
+                        "Pre-Circ": "0.1976",
+                        "Later": "0.0089",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "None",
+                    "sec_obj_pred_score": "None"
+                }
+            ]
+        },
+        {
+            "file_name": "holding_airpods_backview.png",
+            "predictions": [
+                {
+                    "hand_id": 0,
+                    "hand_bbox": [
+                        "590.81213",
+                        "1789.7805",
+                        "1971.3309",
+                        "3332.7363"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "right_hand",
+                    "obj_bbox": [
+                        "566.9841",
+                        "1875.2876",
+                        "1115.3615",
+                        "2596.852"
+                    ],
+                    "obj_touch": "neither_,_held",
+                    "obj_touch_scores": {
+                        "tool_,_touched": "0.0001",
+                        "tool_,_held": "0.0007",
+                        "tool_,_used": "0.0021",
+                        "container_,_touched": "0.0012",
+                        "container_,_held": "0.0013",
+                        "neither_,_touched": "0.2448",
+                        "neither_,_held": "0.7498"
+                    },
+                    "second_obj_bbox": null,
+                    "grasp": "Pre-Pris",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0001",
+                        "NP-Fin": "0.0673",
+                        "Pow-Pris": "0.0005",
+                        "Pre-Pris": "0.6664",
+                        "Pow-Circ": "0.0003",
+                        "Pre-Circ": "0.2565",
+                        "Later": "0.0089",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "1.0",
+                    "sec_obj_pred_score": "None"
+                }
+            ]
+        },
+        {
+            "file_name": "exhibit-0.png",
+            "predictions": [
+                {
+                    "hand_id": 0,
+                    "hand_bbox": [
+                        "47.66531",
+                        "204.02898",
+                        "189.1248",
+                        "456.24615"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "left_hand",
+                    "obj_bbox": [
+                        "99.996056",
+                        "210.9718",
+                        "302.06848",
+                        "351.08688"
+                    ],
+                    "obj_touch": "neither_,_held",
+                    "obj_touch_scores": {
+                        "tool_,_touched": "0.0",
+                        "tool_,_held": "0.0002",
+                        "tool_,_used": "0.0001",
+                        "container_,_touched": "0.0002",
+                        "container_,_held": "0.005",
+                        "neither_,_touched": "0.0203",
+                        "neither_,_held": "0.9742"
+                    },
+                    "second_obj_bbox": null,
+                    "grasp": "Pow-Pris",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0151",
+                        "NP-Fin": "0.0118",
+                        "Pow-Pris": "0.6094",
+                        "Pre-Pris": "0.1913",
+                        "Pow-Circ": "0.1166",
+                        "Pre-Circ": "0.0263",
+                        "Later": "0.029",
+                        "Other": "0.0004"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "1.0",
+                    "sec_obj_pred_score": "None"
+                },
+                {
+                    "hand_id": 1,
+                    "hand_bbox": [
+                        "211.93039",
+                        "199.2737",
+                        "379.66187",
+                        "474.44498"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "right_hand",
+                    "obj_bbox": null,
+                    "obj_touch": "None",
+                    "obj_touch_scores": null,
+                    "second_obj_bbox": null,
+                    "grasp": "Pre-Circ",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0337",
+                        "NP-Fin": "0.1192",
+                        "Pow-Pris": "0.009",
+                        "Pre-Pris": "0.1499",
+                        "Pow-Circ": "0.1307",
+                        "Pre-Circ": "0.553",
+                        "Later": "0.0042",
+                        "Other": "0.0002"
+                    },
+                    "hand_pred_score": "0.99",
+                    "obj_pred_score": "None",
+                    "sec_obj_pred_score": "None"
+                }
+            ]
+        },
+        {
+            "file_name": "no_hands.png",
+            "predictions": [
+                {
+                    "hand_id": 0,
+                    "hand_bbox": [
+                        "117.456894",
+                        "139.77951",
+                        "123.62493",
+                        "147.28915"
+                    ],
+                    "contact_state": "no_contact",
+                    "hand_side": "left_hand",
+                    "obj_bbox": null,
+                    "obj_touch": "None",
+                    "obj_touch_scores": null,
+                    "second_obj_bbox": null,
+                    "grasp": "Pow-Pris",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0621",
+                        "NP-Fin": "0.0027",
+                        "Pow-Pris": "0.5653",
+                        "Pre-Pris": "0.0213",
+                        "Pow-Circ": "0.3418",
+                        "Pre-Circ": "0.0054",
+                        "Later": "0.0015",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "None",
+                    "sec_obj_pred_score": "None"
+                }
+            ]
+        },
+        {
+            "file_name": "small_hands.png",
+            "predictions": [
+                {
+                    "hand_id": 0,
+                    "hand_bbox": [
+                        "1416.0869",
+                        "2811.1636",
+                        "1893.039",
+                        "3360.1619"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "right_hand",
+                    "obj_bbox": [
+                        "984.4701",
+                        "2318.553",
+                        "1823.4257",
+                        "3123.249"
+                    ],
+                    "obj_touch": "neither_,_touched",
+                    "obj_touch_scores": {
+                        "tool_,_touched": "0.0",
+                        "tool_,_held": "0.0",
+                        "tool_,_used": "0.0",
+                        "container_,_touched": "0.0001",
+                        "container_,_held": "0.0",
+                        "neither_,_touched": "0.9773",
+                        "neither_,_held": "0.0226"
+                    },
+                    "second_obj_bbox": null,
+                    "grasp": "NP-Fin",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0077",
+                        "NP-Fin": "0.8314",
+                        "Pow-Pris": "0.0026",
+                        "Pre-Pris": "0.1409",
+                        "Pow-Circ": "0.0002",
+                        "Pre-Circ": "0.0089",
+                        "Later": "0.0083",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "1.0",
+                    "sec_obj_pred_score": "None"
+                }
+            ]
+        },
+        {
+            "file_name": "holding_airpods.png",
+            "predictions": [
+                {
+                    "hand_id": 0,
+                    "hand_bbox": [
+                        "784.9695",
+                        "1840.4893",
+                        "2184.095",
+                        "3351.0693"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "right_hand",
+                    "obj_bbox": [
+                        "538.6319",
+                        "1926.9421",
+                        "1337.6787",
+                        "2514.6418"
+                    ],
+                    "obj_touch": "neither_,_held",
+                    "obj_touch_scores": {
+                        "tool_,_touched": "0.0",
+                        "tool_,_held": "0.0002",
+                        "tool_,_used": "0.0",
+                        "container_,_touched": "0.0",
+                        "container_,_held": "0.0",
+                        "neither_,_touched": "0.0004",
+                        "neither_,_held": "0.9994"
+                    },
+                    "second_obj_bbox": null,
+                    "grasp": "Pre-Pris",
+                    "grasp_scores": {
+                        "NP-Palm": "0.0",
+                        "NP-Fin": "0.0388",
+                        "Pow-Pris": "0.0003",
+                        "Pre-Pris": "0.6692",
+                        "Pow-Circ": "0.0002",
+                        "Pre-Circ": "0.2841",
+                        "Later": "0.0074",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "1.0",
+                    "sec_obj_pred_score": "None"
+                }
+            ]
+        },
+        {
+            "file_name": "frame.jpg",
+            "predictions": [
+                {
+                    "hand_id": 0,
+                    "hand_bbox": [
+                        "168.3458",
+                        "321.30432",
+                        "289.635",
+                        "474.29056"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "right_hand",
+                    "obj_bbox": [
+                        "127.52376",
+                        "293.02173",
+                        "271.83453",
+                        "450.72705"
+                    ],
+                    "obj_touch": "neither_,_touched",
+                    "obj_touch_scores": {
+                        "tool_,_touched": "0.0003",
+                        "tool_,_held": "0.0",
+                        "tool_,_used": "0.0003",
+                        "container_,_touched": "0.0809",
+                        "container_,_held": "0.0015",
+                        "neither_,_touched": "0.9107",
+                        "neither_,_held": "0.0062"
+                    },
+                    "second_obj_bbox": null,
+                    "grasp": "NP-Fin",
+                    "grasp_scores": {
+                        "NP-Palm": "0.075",
+                        "NP-Fin": "0.9218",
+                        "Pow-Pris": "0.0",
+                        "Pre-Pris": "0.0012",
+                        "Pow-Circ": "0.0002",
+                        "Pre-Circ": "0.0017",
+                        "Later": "0.0",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "1.0",
+                    "obj_pred_score": "0.73",
+                    "sec_obj_pred_score": "None"
+                },
+                {
+                    "hand_id": 1,
+                    "hand_bbox": [
+                        "119.920204",
+                        "446.2348",
+                        "208.11127",
+                        "601.50305"
+                    ],
+                    "contact_state": "object_contact",
+                    "hand_side": "left_hand",
+                    "obj_bbox": [
+                        "99.118576",
+                        "293.31445",
+                        "345.65958",
+                        "618.3891"
+                    ],
+                    "obj_touch": "neither_,_touched",
+                    "obj_touch_scores": {
+                        "tool_,_touched": "0.0",
+                        "tool_,_held": "0.0",
+                        "tool_,_used": "0.0",
+                        "container_,_touched": "0.0004",
+                        "container_,_held": "0.0",
+                        "neither_,_touched": "0.9983",
+                        "neither_,_held": "0.0012"
+                    },
+                    "second_obj_bbox": null,
+                    "grasp": "NP-Fin",
+                    "grasp_scores": {
+                        "NP-Palm": "0.1271",
+                        "NP-Fin": "0.8323",
+                        "Pow-Pris": "0.0018",
+                        "Pre-Pris": "0.0328",
+                        "Pow-Circ": "0.0007",
+                        "Pre-Circ": "0.0045",
+                        "Later": "0.0007",
+                        "Other": "0.0"
+                    },
+                    "hand_pred_score": "0.99",
+                    "obj_pred_score": "0.91",
+                    "sec_obj_pred_score": "None"
+                }
+            ]
+        }
+    ]
+}
