@@ -30,9 +30,9 @@ from utils.nlp_process import rank_captions, preference_check
 
 # Initialize the app with a service account
 if not firebase_admin._apps:
-    cred = credentials.Certificate('soundcaption-a6e7d-firebase-adminsdk-mwgfx-7e8cba13f0.json')
+    cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS_PATH', 'firebase-adminsdk.json'))
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://soundcaption-a6e7d-default-rtdb.firebaseio.com/'
+        'databaseURL': os.environ.get('FIREBASE_DATABASE_URL', 'https://your-project-default-rtdb.firebaseio.com/')
     })
 from utils.firebase.firestore_manager import FirestoreManager
 

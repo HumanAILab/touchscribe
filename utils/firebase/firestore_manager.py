@@ -1,4 +1,5 @@
 """firestore manage class"""
+import os
 import time
 import firebase_admin
 from firebase_admin import firestore
@@ -7,9 +8,9 @@ from firebase_admin import db
 from datetime import datetime
 # Initialize the app with a service account
 if not firebase_admin._apps:
-    cred = credentials.Certificate('/home/rueiche/worldscribe/soundcaption-a6e7d-firebase-adminsdk-mwgfx-7e8cba13f0.json')
+    cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS_PATH', 'firebase-adminsdk.json'))
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://soundcaption-a6e7d-default-rtdb.firebaseio.com/'
+        'databaseURL': os.environ.get('FIREBASE_DATABASE_URL', 'https://your-project-default-rtdb.firebaseio.com/')
     })
 firestore_db = firestore.client()
 

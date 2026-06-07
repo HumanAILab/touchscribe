@@ -1,7 +1,8 @@
 """
 config file to store the ip and ports
-Note: this is just an example, do not push your actual IP onto github for security reasons
+Note: set SERVER_IP via the SERVER_IP environment variable before running.
 """
-SERVER_IP = '35.3.5.104' # TODO: place your IP here
+import os
+SERVER_IP = os.environ.get('SERVER_IP', 'YOUR_SERVER_IP_HERE')
 VISUAL_SERVER_PORT = 8080 # port number
 DEPTH_SERVER_PORT = 4096

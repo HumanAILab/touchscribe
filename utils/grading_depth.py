@@ -1,12 +1,13 @@
+import os
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 import uuid
 import time
 if not firebase_admin._apps:
-    cred = credentials.Certificate('soundcaption-a6e7d-firebase-adminsdk-mwgfx-7e8cba13f0.json')
+    cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS_PATH', 'firebase-adminsdk.json'))
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://soundcaption-a6e7d-default-rtdb.firebaseio.com/'
+        'databaseURL': os.environ.get('FIREBASE_DATABASE_URL', 'https://your-project-default-rtdb.firebaseio.com/')
     })
 
 from firebase_admin import firestore
